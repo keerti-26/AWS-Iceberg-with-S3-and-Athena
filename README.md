@@ -112,8 +112,8 @@
     ```
     SELECT * FROM nyc_taxi_iceberg_data_manipulation WHERE vendorid = 2 and year(tpep_pickup_datetime) =2022 limit 10;
     ```
-    ```
-19. Delete from iceberg table
+    
+9. Delete from iceberg table
     ```
     DELETE FROM nyc_taxi_iceberg_data_manipulation WHERE year(tpep_pickup_datetime) != 2008; 
     ```
