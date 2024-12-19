@@ -115,7 +115,7 @@
     
 9. Delete from iceberg table
     ```
-    DELETE FROM nyc_taxi_iceberg_data_manipulation WHERE year(tpep_pickup_datetime) != 2008; 
+    DELETE FROM nyc_taxi_iceberg_data_manipulation WHERE year(tpep_pickup_datetime) != 2022; 
     ```
 
 
